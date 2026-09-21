@@ -1,0 +1,29 @@
+A)
+
+
+public class ValidationError extends Error{
+
+
+verror(error e){
+
+console.log(e.message(`filedname` isnot correcrt ))
+}
+}
+
+public class slotAvailableError extends Error{
+
+ serror (error e){
+
+
+ }
+}
+
+
+b)
+
+
+because of the showtoast success call. it will run even if the async fails thats why its a line
+
+
+c)
+

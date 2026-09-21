@@ -1,0 +1,45 @@
+a)
+
+
+
+function
+undefined
+undefined
+d:\30279_AdnanAlahiShownok_JavascriptExam\test.js:4
+console.log(typeof consultFee);
+        ^
+
+ReferenceError: Cannot access 'consultFee' before initialization
+
+
+
+formatslot has been decalred thats why it shows function in output 
+buildInvoice has been declared but it doesnt know which type of function is buildinvoice thats why it shows undefined
+
+and we cannot access consultfee before initialize this
+
+
+
+b)
+
+Dr. Karim Uddin @ undefined
+Dr. Nusrat Jahan @ undefined
+d:\30279_AdnanAlahiShownok_JavascriptExam\test.js:5
+this.doctors.forEach(function (doc) {
+             ^
+
+TypeError: Cannot read properties of undefined (reading 'forEach')
+
+while iterating doctors calling the clinic become undefined 
+in strict mode it will show undefined 
+while in non strict mode 
+also printroaster is a property of scheduler so cant call directly without the structure.
+
+
+c)
+
+TypeError: Cannot read properties of undefined (reading 'forEach')
+it will trow error 
+defining a function inside a property has some rules 
+it breaks the rules too
+

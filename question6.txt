@@ -1,0 +1,28 @@
+a)
+
+1: sync
+2: async body
+6: sync end
+3: after await
+5: then
+4: timeout 0
+
+call stack is calling function inside another function 
+web api is taking a service from web using some api key.
+event loop is caaling an event during any task in web services 
+b)
+
+try{
+aptid= apt.fetchdoctor(doctorid);
+
+
+
+
+
+c)
+
+
+
+
+d)
+

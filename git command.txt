@@ -1,0 +1,7 @@
+echo "# 30279_AdnanAlahiShownok_JavascriptExam" >> README.md
+git init
+git add README.md
+git commit -m "second commit"
+git branch -M main
+git remote add origin git@github.com:AdnanShownok30279/30279_AdnanAlahiShownok_JavascriptExam.git
+git push -u origin main

@@ -1,0 +1,32 @@
+A)
+
+01811000001
+d:\30279_AdnanAlahiShownok_JavascriptExam\test.js:54
+rawAppointments.forEach(apt => console.log(apt.patient.contact.phone));
+
+there is not contact properties in second property of rawAppointments id:apt-202
+
+b)
+
+null 500
+
+
+
+
+c)
+
+const discountB = apt.discount.amount ?? 100; is correct
+
+d)
+
+
+normalizeAppointments(rawAppointments =>{
+
+
+
+    return [rawAppointments.id,rawAppointments.status,rawAppointments.doctor,rawAppointments.patient,rawAppointments.fee,rawAppointments.tests];
+});
+
+
+e)
+
